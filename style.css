@@ -1,0 +1,48 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url('./images/bg-intro-desktop.png');
+  color: white;
+  
+}
+.main-container{
+  height:100vh;
+}
+.row{
+  height: 100%;
+}
+#main-heading{
+  font-weight: 600;
+}
+.main-form{
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+#try{
+  background-color: hsl(248, 32%, 49%);
+  font-size: 16px;
+}
+#try span{
+  opacity: 0.7;
+}
+#claim{
+  background-color: hsl(154, 59%, 51%);
+  font-size: 16px;
+}
+.tos span{
+  color:hsl(0, 100%, 74%)
+}
+.tos{
+  font-size: 10px;
+  text-align: center;
+}
+.main-paragraph{
+  opacity: 0.8;
+}
+@media(max-width:767px)
+{
+  h1,p{
+    text-align: center;
+  }
+}
