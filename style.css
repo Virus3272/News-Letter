@@ -45,4 +45,7 @@ body{
   h1,p{
     text-align: center;
   }
+  body{
+    background-image: url('./images/bg-intro-mobile.png');
+  }
 }
